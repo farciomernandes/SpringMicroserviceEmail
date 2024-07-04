@@ -5,6 +5,7 @@ import java.util.UUID;
 public record EmailRecordDto(
         UUID userId,
         String emailTo,
-        String text
+        String text,
+        String subject
 ) {
 }
